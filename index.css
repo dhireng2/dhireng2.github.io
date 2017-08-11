@@ -48,10 +48,13 @@ html.loaded body {
 	2. TYPOGRAPHY (@typo) - typographic styles
 
     -------------------------------------------- */
+h4 {
+	font-family: 'Pangolin', cursive;
+}
+
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
 	font-family: 'Montserrat', sans-serif;
@@ -80,7 +83,7 @@ h3 {
 	margin-top: 28px;
 	}
 h4 {
-	font-size: 12px; text-transform: uppercase; letter-spacing: 5px;
+	font-size: 14px; text-transform: uppercase; letter-spacing: 3px;
 	}
 p:last-child {
 	margin-bottom: 0;
