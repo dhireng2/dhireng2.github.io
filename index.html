@@ -91,12 +91,22 @@
 
     <!-- SCRIPTS -->
 	<script src="idk.js"></script>
+	<script src="https://widget.battleforthenet.com/widget.js" async></script>
 	<script type="text/javascript">
 	  var _bftn_options = {
-
+	    /*
+	     * Choose from 'money', 'stop', and 'slow'. Omit this property to get the
+	     * default theme.
+	     */
 	    theme: 'stop', // @type {string}
 
 
+	    /*
+	     * Choose from 'fp' for Free Press, 'dp' for Demand Progress or
+	     * 'fftf' for Fight for the Future. Omit this property to randomly split
+	     * form submissions between all organizations in the Battle for the Net
+	     * coalition.
+	     */
 	    org: 'fftf', // @type {string}
 
 	    /*
@@ -112,6 +122,13 @@
 	     */
 	    date: new Date(2017, 8, 22), // @type {Date}
 
+	    /*
+	     * If you show the modal on your homepage, you should let users close it to
+	     * access your site. However, if you launch a new tab to open the modal, closing
+	     * the modal just leaves the user staring at a blank page. Set this to true to
+	     * prevent closing the modal - the user can close the tab to dismiss it. Defaults
+	     * to false.
+	     */
 	    uncloseable: false, // @type {Boolean}
 
 	    /*
@@ -125,8 +142,7 @@
 	    always_show_widget: true // @type {Boolean}
 	  };
 	</script>
-	<script src="https://widget.battleforthenet.com/widget.js" async></script>
 
 
-</body>
-</html>
+
+</body></html>
